@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: snow;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.content{
+    width: 30vw;
+    height: 400px;
+    background-color: rgb(156, 22, 156);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: snow;
+    border-radius: 30px;
+}
+
+.content img{
+    width: 80%;
+}
+
+#yes{
+    background-color: green;
+    padding: 10px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    color: snow;
+
+}
+
+#no{
+    background-color: red;
+    padding: 10px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    color: snow;
+
+}
+
+.btn-area{
+    display: flex;
+    gap: 80px;
+}
+
+button:hover{
+    opacity:0.7;
+}
